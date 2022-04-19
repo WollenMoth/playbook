@@ -48,6 +48,7 @@ const pullRequest = {
   dateCreated: "2022-04-14",
   status: "open",
   repositoryNameAssociated: "storefront3",
+  author: "WollenMoth",
   getStatus() {
     return `The ${this.title} pull request is ${this.status}`;
   },
